@@ -15,7 +15,7 @@ const weatherOptions ={
 
 export default function Weather({temp, condition}){
     return (
-        <LinearGradient
+        <LinearGradientd
         colors={weatherOptions["Clouds"].gradient}
         style={styles.container}>
             <StatusBar barStyle="light-content"/>
@@ -32,7 +32,7 @@ export default function Weather({temp, condition}){
                     <Text style={styles.subtitle}>{weatherOptions["Clouds"].subTitle}</Text>
                 </View>
             </View>
-        </LinearGradient>);
+        </LinearGradientd>);
 }
 
 Weather.propTypes = {
